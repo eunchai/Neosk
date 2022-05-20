@@ -1,20 +1,30 @@
 import React from "react";
 import styled from "styled-components";
-import Header from "../../containers/Header";
+import LogoHeader from "../../containers/LogoHeader";
+import MenuBar from "../../containers/MenuBar";
 
-function DessertPresenter() {
+function CoffeePresenter() {
   return (
     <Wrapper>
-    <Header/>
-    Dessert page!
+      <LogoHeader/>
+      <MenuWrapper>
+        <MenuBar/>
+        Dessert Page!
+    </MenuWrapper>
     </Wrapper>
   );
 }
 
-export default DessertPresenter;
+export default CoffeePresenter;
 
 const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   display: flex;
+  flex-direction: column;
+`;
+
+const MenuWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
 `;

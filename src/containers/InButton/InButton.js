@@ -6,6 +6,7 @@ const InButton = () => {
   const history = useHistory();
   const onOrder = () => {
     history.push("/menu_coffee");
+    history.go(0)
   };
 
   return (

@@ -1,12 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import InButton from "../../containers/InButton";
+import LogoHeader from "../../containers/LogoHeader";
 import OutButton from "../../containers/OutButton";
 
 const MainPresenter = () => {
   return (
     <Wrapper>
-      <Logo>Neosk</Logo>
+      <LogoHeader/>
       <ButtonWrapper>
       <InButton></InButton>
       <OutButton></OutButton>
@@ -18,14 +19,10 @@ const MainPresenter = () => {
 export default MainPresenter;
 
 const Wrapper = styled.div`
-  justify-content: center;
+  //justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
-`;
-
-const Logo = styled.h1`
-  font-size: 35px;
 `;
 
 const ButtonWrapper = styled.div`

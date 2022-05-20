@@ -1,39 +1,35 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Route,
-  // Redirect,
+  Redirect,
   Switch,
 } from "react-router-dom";
 import Main from "../pages/Main";
 import Coffee from "../pages/Coffee";
 import Tea from "../pages/Tea";
 import Dessert from "../pages/Dessert";
-//import Header from "../containers/Header/Header";
 
 const RootRouter = () => {
 return(
-  <Router>
+  <BrowserRouter>
     <Switch>
-      <Route path="/" exact component={Main} />
-      <Route path="/menu_coffee" exact component={Coffee} />
-      <Route path="/menu_tea" exact component={Tea} />
-      <Route path="/menu_dessert" exact component={Dessert} />
+      <Route exact path="/">
+        <Main/>
+      </Route>
+      <Route exact path="/menu_coffee">
+        <Coffee/>
+      </Route>
+      <Route exact path="/menu_tea">
+        <Tea/>
+        </Route>
+      <Route exact path="/menu_dessert">
+        <Dessert/>
+        </Route>
+      <Redirect from="*" to="/" />
     </Switch>
-  </Router>
+  </BrowserRouter>
 )
 };
 
 export default RootRouter;
-
-// export default () => (
-//     <Router>
-//       <Header />
-//       <Switch>
-//         <Route path="/" exact component={Main} />
-//         <Route path="/search" exact component={Search} />
-//         <Redirect from="*" to="/" />
-//       </Switch>
-//     </Router>
-//   );
-  
