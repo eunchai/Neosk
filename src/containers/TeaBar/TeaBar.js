@@ -1,8 +1,8 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import MenuPresenter from "./MenuPresenter";
+import MenuPresenter from "./Presenter";
 
-const MenuBar = () => {
+const TeaBar = () => {
   const history = useHistory();
   const goCoffee = () => {
     history.push("/menu_coffee");
@@ -26,4 +26,4 @@ const MenuBar = () => {
   );
 };
 
-export default MenuBar;
+export default TeaBar;

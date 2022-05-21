@@ -3,9 +3,9 @@ import { Link, withRouter } from "react-router-dom";
 import styled from "styled-components";
 
 const Logo = styled.div`
-margin: 15px 0px 15px 0px;
+margin-top: 15px;
 width: 100%;
-border-bottom: 1.5px solid;
+border-bottom: 1.5px solid lightgray;
 text-align: right;
 `;
 

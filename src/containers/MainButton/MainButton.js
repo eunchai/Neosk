@@ -2,18 +2,18 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 import OutButtonPresenter from "./Presenter";
 
-const OutButton = () => {
+const MainButton = () => {
   const history = useHistory();
-  const onOrder = () => {
-    history.push("/menu_coffee");
+  const goHome = () => {
+    history.push("/");
     history.go(0)
   };
 
   return (
     <OutButtonPresenter
-      onOrder={onOrder}
+      goHome={goHome}
     />
   );
 };
 
-export default OutButton;
+export default MainButton;

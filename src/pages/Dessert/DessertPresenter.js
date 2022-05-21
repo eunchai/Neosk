@@ -1,30 +1,40 @@
 import React from "react";
 import styled from "styled-components";
 import LogoHeader from "../../containers/LogoHeader";
-import MenuBar from "../../containers/MenuBar";
+import DessertBar from "../../containers/DessertBar";
 
-function CoffeePresenter() {
+function DessertPresenter() {
   return (
     <Wrapper>
       <LogoHeader/>
-      <MenuWrapper>
-        <MenuBar/>
-        Dessert Page!
+      <MenuWrapper >
+        <DessertBar/>
+        <MenuList>
+        Dessert
+        </MenuList>
     </MenuWrapper>
     </Wrapper>
   );
 }
 
-export default CoffeePresenter;
+export default DessertPresenter;
 
 const Wrapper = styled.div`
-  justify-content: center;
+  /* justify-content: center;
   align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; */
 `;
 
 const MenuWrapper = styled.div`
   display: flex;
   flex-direction: row;
+  justify-content: left;
+  width: 100%;
+  margin-top: 10px;
+`;
+
+const MenuList = styled.div`
+  border-left: 1.5px solid lightgray;
+  //height:100%;
 `;
