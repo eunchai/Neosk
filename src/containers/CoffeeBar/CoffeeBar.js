@@ -5,15 +5,15 @@ import MenuPresenter from "./Presenter";
 const CoffeeBar = () => {
   const history = useHistory();
   const goCoffee = () => {
-    history.push("/menu_coffee");
+    history.push("/menu_liquid");
     history.go(0)
   };
   const goTea = () => {
-    history.push("/menu_tea");
+    history.push("/menu_food");
     history.go(0)
   };
   const goDessert = () => {
-    history.push("/menu_dessert");
+    history.push("/menu_merchandise");
     history.go(0)
   };
 

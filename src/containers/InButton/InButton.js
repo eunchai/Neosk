@@ -5,7 +5,7 @@ import InButtonPresenter from "./Presenter";
 const InButton = () => {
   const history = useHistory();
   const onOrder = () => {
-    history.push("/menu_coffee");
+    history.push("/menu_liquid");
     history.go(0)
   };
 
