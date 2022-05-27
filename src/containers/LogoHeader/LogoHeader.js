@@ -1,24 +1,24 @@
 import React from "react";
-import { Link, withRouter } from "react-router-dom";
 import styled from "styled-components";
+import logo from "../../assets/neosk.png"
 
-const Logo = styled.div`
+const Wrapper = styled.div`
 margin-top: 15px;
 width: 100%;
 border-bottom: 1.5px solid lightgray;
 text-align: right;
 `;
 
-const SLink = styled(Link)`
-  font-size: 30px;
-  text-decoration: none;
-  padding-right: 15px;
+const LogoImg = styled.img`
+width:45px;
+height:45px;
+padding:0px 10px 5px 0px;
 `;
 
-const Header = withRouter(({ location: { pathname } }) => (
-<Logo current={pathname === "/"}>
-  <SLink to="/">Neosk</SLink>
-  </Logo>
-));
+const Header = () => (
+<Wrapper>
+  <LogoImg alt="Logo" src={logo}/>
+  </Wrapper>
+);
 
 export default Header;
