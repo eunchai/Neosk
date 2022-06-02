@@ -16,7 +16,7 @@ const MenuPresenter = (props) => {
 export default MenuPresenter;
 
 const Wrapper = styled.div`
-  justify-content: center;
+  //justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
