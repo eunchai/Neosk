@@ -3,10 +3,12 @@ import styled from "styled-components";
 import logo from "../../assets/neosk.png"
 
 const Wrapper = styled.div`
-margin-top: 15px;
+padding-top: 10px;
 width: 100%;
-border-bottom: 1.5px solid lightgray;
+//border-bottom: 1.5px solid lightgray;
 text-align: right;
+position: fixed;
+background-color: #86B1E5;
 `;
 
 const LogoImg = styled.img`

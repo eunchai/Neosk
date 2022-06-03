@@ -16,10 +16,12 @@ const MenuPresenter = (props) => {
 export default MenuPresenter;
 
 const Wrapper = styled.div`
-  //justify-content: center;
+  background-color: #DCE4ED;
   align-items: center;
   display: flex;
   flex-direction: column;
+  position: fixed;
+  margin-top: 15px;
 `;
 
 const ClickedButton = styled.button`
@@ -43,5 +45,7 @@ const UnclickedButton = styled.button`
 `;
 
 const MainButtonWrapper = styled.div`
-  margin-top: 420px;
+position : fixed;
+bottom : 0;
+margin-bottom: 10px;
 `;

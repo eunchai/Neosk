@@ -31,18 +31,17 @@ function CoffeePresenter() {
 export default CoffeePresenter;
 
 const Wrapper = styled.div`
-  /* justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column; */
 `;
 
 const MenuWrapper = styled.div`
-  display: flex;
+padding-top:54px;
+background-color: #DCE4ED;
 `;
 
 const MenuList = styled.div`
   border-left: 1.5px solid lightgray;
+  margin-left: 100px;
+  background-color: #FFFFFF;
 `;
 
 const ListWrapper = styled.div`

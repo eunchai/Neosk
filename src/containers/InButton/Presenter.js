@@ -23,4 +23,5 @@ height: 330px;
   border-radius: 15px;
   font-size: 15px;
   line-height: 1.5;
+  background-color: #FFFFFF ;
 `;
