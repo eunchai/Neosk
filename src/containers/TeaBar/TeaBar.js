@@ -5,7 +5,7 @@ import MenuPresenter from "./Presenter";
 const TeaBar = () => {
   const history = useHistory();
   const goCoffee = () => {
-    history.push("/menu_liquid");
+    history.push("/menu_drinks");
     history.go(0)
   };
   const goTea = () => {

@@ -5,7 +5,7 @@ import OutButtonPresenter from "./Presenter";
 const OutButton = () => {
   const history = useHistory();
   const onOrder = () => {
-    history.push("/menu_drinks");
+    history.push("/cart");
     history.go(0)
   };
 

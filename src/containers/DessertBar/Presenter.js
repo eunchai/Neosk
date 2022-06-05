@@ -7,8 +7,8 @@ const MenuPresenter = (props) => {
   return (
     <Wrapper>
       <UnclickedButton onClick={goCoffee}>음료</UnclickedButton>
-      <UnclickedButton onClick={goTea}>푸드</UnclickedButton>
-      <ClickedButton onClick={goDessert}>상품</ClickedButton>
+      <ClickedButton onClick={goTea}>푸드</ClickedButton>
+      <UnclickedButton onClick={goDessert}>상품</UnclickedButton>
       <MainButtonWrapper><MainButton/></MainButtonWrapper>
     </Wrapper>
   );
@@ -16,10 +16,12 @@ const MenuPresenter = (props) => {
 export default MenuPresenter;
 
 const Wrapper = styled.div`
-  justify-content: center;
+  background-color: #DCE4ED;
   align-items: center;
   display: flex;
   flex-direction: column;
+  position: fixed;
+  margin-top: 15px;
 `;
 
 const ClickedButton = styled.button`
@@ -30,6 +32,7 @@ const ClickedButton = styled.button`
   width: 130px;
   height: 50px;
   text-align: right;
+  background-color: #FFFFFF;
 `;
 
 const UnclickedButton = styled.button`
@@ -40,8 +43,11 @@ const UnclickedButton = styled.button`
   width: 130px;
   height: 50px;
   text-align: right;
+  background-color: #FFFFFF;
 `;
 
 const MainButtonWrapper = styled.div`
-  margin-top: 420px;
+position : fixed;
+bottom : 0;
+margin-bottom: 10px;
 `;

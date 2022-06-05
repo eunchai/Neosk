@@ -32,6 +32,7 @@ const ClickedButton = styled.button`
   width: 130px;
   height: 50px;
   text-align: right;
+  background-color: #FFFFFF;
 `;
 
 const UnclickedButton = styled.button`
@@ -42,6 +43,7 @@ const UnclickedButton = styled.button`
   width: 130px;
   height: 50px;
   text-align: right;
+  background-color: #FFFFFF;
 `;
 
 const MainButtonWrapper = styled.div`

@@ -2,10 +2,10 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 import OutButtonPresenter from "./Presenter";
 
-const OutButton = () => {
+const OrderButton = () => {
   const history = useHistory();
   const onOrder = () => {
-    history.push("/menu_drinks");
+    history.push("/order");
     history.go(0)
   };
 
@@ -16,4 +16,4 @@ const OutButton = () => {
   );
 };
 
-export default OutButton;
+export default OrderButton;
