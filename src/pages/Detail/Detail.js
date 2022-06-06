@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import AddSubButton from "../../containers/Button/AddSubButton";
+import BackButton from "../../containers/Button/BackButton";
 import CartButton from "../../containers/Button/CartButton";
 import OrderButton from "../../containers/Button/OrderButton";
 
@@ -9,6 +10,7 @@ const DetailPresenter = () => {
 
   return (
     <Wrapper>
+      <BackButton/>
         {menu.map(menu => (
           <ListWrapper key={menu.id} id={menu.id}>
             <MenuThumb src={menu.image} />

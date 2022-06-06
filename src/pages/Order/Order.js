@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import OrderImg from "../../assets/OrderImg.jpg"
 import { useHistory } from "react-router-dom";
+import BackButton from "../../containers/Button/BackButton";
 
 const OrderPresenter = () => {
   const history = useHistory();
@@ -12,7 +13,7 @@ const OrderPresenter = () => {
 
   return (
     <Wrapper>
-      <Header>주문하기</Header>
+      <Header><BackButton/>주문하기</Header>
       <OrderPage src={OrderImg}></OrderPage>
       <PriceBox><ProductStr>최종 결제금액</ProductStr>
             <PriceStr>17,800원</PriceStr></PriceBox>

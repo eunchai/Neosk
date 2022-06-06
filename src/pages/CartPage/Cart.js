@@ -3,6 +3,7 @@ import styled from "styled-components";
 import AddSubButton from "../../containers/Button/AddSubButton";
 import LogoHeader from "../../containers/LogoHeader";
 import { useHistory } from "react-router-dom";
+import BackButton from "../../containers/Button/BackButton";
 
 const DrinkPresenter = (props) => {
   const menu = [{"id":378,"name":"딸기주스 190ML","description":"달콤한 국내산 딸기의 과육이 듬뿍 느껴지는 주스","price":3900,"image":"https://www.istarbucks.co.kr/upload/store/skuimg/2019/06/[5210008070]_20190627152902132.jpg","kcal":100},{"id":281,"name":"아이스 카페 라떼","description":"에스프레소 샷과 시원한 우유와 얼음으로 고소한 음료.","price":5500,"image":"https://www.istarbucks.co.kr/upload/store/skuimg/2015/08/[110569]_20150813221315558.jpg","kcal":110},{"id":420,"name":"레드벨벳 크림치즈 케이크","description":"레드벨벳 시트 사이에 크림치즈 무스를 샌드한 케이크입니다.","price":8400,"image":"https://www.istarbucks.co.kr/upload/store/skuimg/2015/10/[5110007192]_20151002104431160.jpg","kcal":466}]
@@ -15,6 +16,7 @@ const DrinkPresenter = (props) => {
   return (
     <>
     <LogoHeader/>
+    <BackButton/>
     <Wrapper>
         {menu.map(menu => (
           <ListWrapper key={menu.id} id={menu.id}>

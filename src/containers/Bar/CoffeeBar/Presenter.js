@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import MainButton from "../../Button/MainButton";
-import {BiCoffeeTogo} from "react-icons/bi"
+import {AiOutlineCoffee} from "react-icons/ai"
 
 const MenuPresenter = (props) => {
   const { goCoffee, goTea, goDessert } = props;
   return (
     <Wrapper>
-      <ClickedButton onClick={goCoffee}><BiCoffeeTogo size="25"/>음료</ClickedButton>
+      <ClickedButton onClick={goCoffee}><AiOutlineCoffee size="25"/> 음료</ClickedButton>
       <UnclickedButton onClick={goTea}>푸드</UnclickedButton>
       <UnclickedButton onClick={goDessert}>상품</UnclickedButton>
       <MainButtonWrapper><MainButton/></MainButtonWrapper>

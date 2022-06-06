@@ -68,5 +68,7 @@ width: 150px;
   height: 50px;
   border-radius: 10px;
   font-size: 15px;
+  border-color: #86B1E5;
+  color: #86B1E5;
   background-color: #FFFFFF;
 `;
