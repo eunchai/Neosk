@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  BrowserRouter,
+  HashRouter,
   Route,
   Redirect,
   Switch,
@@ -17,7 +17,7 @@ import PaySecond from "../pages/Pay/PaySecond";
 
 const RootRouter = () => {
 return(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter>
     <Switch>
       <Route exact path="/" component={Main} />
       <Route exact path="/menu_drinks" component={Drinks} />
@@ -30,7 +30,7 @@ return(
         <Route exact path="/payments" component={PaySecond} />
       <Redirect from="*" to="/" />
     </Switch>
-  </BrowserRouter>
+  </HashRouter>
 )
 };
 
