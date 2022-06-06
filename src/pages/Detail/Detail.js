@@ -19,7 +19,7 @@ const DetailPresenter = () => {
             <MenuKcal>{menu.kcal}kcal</MenuKcal>
             <MenuDescription>{menu.description}</MenuDescription>
             <MenuPrice>{menu.price}원</MenuPrice>
-            <AddSubButton/>
+            <AddSubWrapper><AddSubButton/></AddSubWrapper>
           </StrWrapper>
           </ListWrapper>
         ))}
@@ -65,6 +65,10 @@ padding-top: 10px;
 const MenuPrice = styled.div`
 font-size: 25px;
 padding: 10px 0px 10px 0px;
+`;
+
+const AddSubWrapper = styled.div`
+margin-left: 255px;
 `;
 
 const OrderTab = styled.div`

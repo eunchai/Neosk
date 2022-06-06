@@ -27,4 +27,5 @@ height: 45px;
   background-color: #FFFFFF;
   border: 1px solid #86B1E5;
   color: #86B1E5;
+  font-weight: bold;
 `;

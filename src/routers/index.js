@@ -12,6 +12,8 @@ import Merchandise from "../pages/Merchandise";
 import Detail from "../pages/Detail";
 import Cart from "../pages/CartPage";
 import Order from "../pages/Order";
+import Pay from "../pages/Pay/PayOne";
+import PaySecond from "../pages/Pay/PaySecond";
 
 const RootRouter = () => {
 return(
@@ -37,6 +39,12 @@ return(
         </Route>
         <Route exact path="/order">
         <Order/>
+        </Route>
+        <Route exact path="/pay">
+        <Pay/>
+        </Route>
+        <Route exact path="/payments">
+        <PaySecond/>
         </Route>
       <Redirect from="*" to="/" />
     </Switch>

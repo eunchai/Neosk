@@ -38,7 +38,7 @@ width: 100%;
 text-align: center;
 position: fixed;
 background-color: #86B1E5;
-font-size: 28px;
+font-size: 25px;
 color: white;
 `;
 
@@ -79,4 +79,5 @@ border-radius: 12px;
   background-color: #86B1E5;
   border: 1px solid #86B1E5;
   color: #FFFFFF;
+  font-weight: bold;
 `;

@@ -34,6 +34,7 @@ const ClickedButton = styled.button`
   height: 50px;
   padding-left: 25px;
   background-color: #FFFFFF;
+  font-weight: bold;
 `;
 
 const UnclickedButton = styled.button`

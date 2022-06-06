@@ -119,4 +119,5 @@ height: 45px;
   background-color: #86B1E5;
   border: 1px solid #86B1E5;
   color: #FFFFFF;
+  font-weight: bold;
 `;

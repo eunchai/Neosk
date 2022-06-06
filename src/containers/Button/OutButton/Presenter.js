@@ -34,6 +34,7 @@ height: 330px;
   align-items: center;
   border-color: #86B1E5;
   color: #86B1E5;
+  font-weight: bold;
 `;
 
 const ButtonStr = styled.p`

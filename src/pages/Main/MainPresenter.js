@@ -71,4 +71,5 @@ width: 150px;
   border-color: #86B1E5;
   color: #86B1E5;
   background-color: #FFFFFF;
+  font-weight: bold;
 `;
