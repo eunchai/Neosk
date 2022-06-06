@@ -4,7 +4,7 @@ import AddSubButton from "../../containers/Button/AddSubButton";
 import CartButton from "../../containers/Button/CartButton";
 import OrderButton from "../../containers/Button/OrderButton";
 
-const DrinkPresenter = (props) => {
+const DetailPresenter = () => {
   const menu = [{"id":378,"name":"딸기주스 190ML","description":"달콤한 국내산 딸기의 과육이 듬뿍 느껴지는 주스","price":3900,"image":"https://www.istarbucks.co.kr/upload/store/skuimg/2019/06/[5210008070]_20190627152902132.jpg","kcal":100}]
 
   return (
@@ -17,12 +17,10 @@ const DrinkPresenter = (props) => {
             <MenuKcal>{menu.kcal}kcal</MenuKcal>
             <MenuDescription>{menu.description}</MenuDescription>
             <MenuPrice>{menu.price}원</MenuPrice>
+            <AddSubButton/>
           </StrWrapper>
           </ListWrapper>
         ))}
-        <NumberTab>
-        <AddSubButton/>
-          </NumberTab>
         <OrderTab>
           <CartButton/>
           <OrderButton/>
@@ -31,7 +29,7 @@ const DrinkPresenter = (props) => {
   );
 }
 
-export default DrinkPresenter;
+export default DetailPresenter;
 
 const Wrapper = styled.div`
 `;
@@ -42,7 +40,6 @@ const ListWrapper = styled.div`
 `;
 
 const MenuThumb = styled.img`
-
 `;
 
 const StrWrapper = styled.div`
@@ -65,17 +62,15 @@ padding-top: 10px;
 
 const MenuPrice = styled.div`
 font-size: 25px;
-padding-top: 10px;
+padding: 10px 0px 10px 0px;
 `;
 
 const OrderTab = styled.div`
 display: flex;
 justify-content: space-evenly;
-padding-left: 95px;
-`;
-
-const NumberTab = styled.div`
-display: flex;
-width: 90px;
-justify-content: space-around;
+bottom:0;
+box-shadow: 0px -12px 18px #DCE4ED;
+position: fixed;
+width: 280px;
+padding:20px 0px 20px 80px;
 `;
