@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Neosk/static/css/main.073c9b0a.css",
+    "main.js": "/Neosk/static/js/main.7f288378.js",
+    "static/js/787.aaa292f1.chunk.js": "/Neosk/static/js/787.aaa292f1.chunk.js",
+    "static/media/Spanish.svg": "/Neosk/static/media/Spanish.0c7aefe560ed7e75b72a4941087853e0.svg",
+    "static/media/OrderImg.jpg": "/Neosk/static/media/OrderImg.e9792a2db7a61802a66e.jpg",
+    "static/media/neosk.png": "/Neosk/static/media/neosk.a603c0375cd32eddc1a9.png",
+    "static/media/PaymentPage.jpg": "/Neosk/static/media/PaymentPage.473b407e2c67b976401e.jpg",
+    "static/media/BankCards.jpg": "/Neosk/static/media/BankCards.394c6854b5947d707857.jpg",
+    "static/media/English.svg": "/Neosk/static/media/English.5f37194a0778f3eb2a7dbbc92f9b79cb.svg",
+    "static/media/Korean.svg": "/Neosk/static/media/Korean.a685247ddb8f127cf43a0c45e40150d9.svg",
+    "static/media/Chinese.svg": "/Neosk/static/media/Chinese.97ea1542e4bc1ebfbedff48a16de65ae.svg",
+    "index.html": "/Neosk/index.html",
+    "static/media/Germany.svg": "/Neosk/static/media/Germany.1708c5f78a40e2382860bd1a6fc03353.svg",
+    "static/media/Japanese.svg": "/Neosk/static/media/Japanese.c4b1f700c50818f752e2c42d39592a36.svg",
+    "main.073c9b0a.css.map": "/Neosk/static/css/main.073c9b0a.css.map",
+    "main.7f288378.js.map": "/Neosk/static/js/main.7f288378.js.map",
+    "787.aaa292f1.chunk.js.map": "/Neosk/static/js/787.aaa292f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.7f288378.js"
+  ]
+}
