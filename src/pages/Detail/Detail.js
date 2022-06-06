@@ -68,7 +68,8 @@ padding: 10px 0px 10px 0px;
 `;
 
 const AddSubWrapper = styled.div`
-margin-left: 255px;
+float:right;
+margin-right: 10px;
 `;
 
 const OrderTab = styled.div`
@@ -77,6 +78,6 @@ justify-content: space-evenly;
 bottom:0;
 box-shadow: 0px -12px 18px #DCE4ED;
 position: fixed;
-width: 280px;
+width: 330px;
 padding:20px 0px 20px 80px;
 `;

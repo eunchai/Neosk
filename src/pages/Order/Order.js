@@ -29,7 +29,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 background-color: #DCE4ED;
-height:740px;
 `;
 
 const Header = styled.div`
@@ -70,7 +69,7 @@ font-size: 25px;
 `;
 
 const Button = styled.button`
-margin-top: 30px;
+margin: 30px 0px 60px 0px;
 width:320px;
 height: 45px;
 border-radius: 12px;

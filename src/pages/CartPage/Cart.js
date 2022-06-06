@@ -78,8 +78,7 @@ padding-top: 10px;
 `;
 
 const NumberWrapper = styled.div`
-padding-top: 10px;
-display: flex;
+margin-right: -50px;
 float: right;
 `;
 
@@ -91,6 +90,7 @@ position: fixed;
 bottom:0;
 box-shadow: 0px -12px 18px #DCE4ED;
 padding:20px;
+width: 371px;
 `;
 
 const PriceWrapper = styled.div`

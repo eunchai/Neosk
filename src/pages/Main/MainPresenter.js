@@ -63,7 +63,7 @@ width:60px;
 `;
 
 const VoiceButton = styled.button`
-margin: 30px;
+margin: 40px 0px 70px 0px;
 width: 150px;
   height: 50px;
   border-radius: 10px;

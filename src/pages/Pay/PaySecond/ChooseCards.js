@@ -35,13 +35,12 @@ height:740px;
 `;
 
 const Background = styled.img`
-width:360px;
+width:415px;
 `;
 
 const CardsWrapper = styled.div`
 position: fixed;
 background-color: white;
-width: 360px;
 display: flex;
 flex-direction: column;
 align-items: center;
