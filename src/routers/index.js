@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  HashRouter,
+  BrowserRouter,
   Route,
   Redirect,
   Switch,
@@ -17,38 +17,20 @@ import PaySecond from "../pages/Pay/PaySecond";
 
 const RootRouter = () => {
 return(
-  <HashRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Switch>
-      <Route exact path="/">
-        <Main/>
-      </Route>
-      <Route exact path="/menu_drinks">
-        <Drinks/>
-      </Route>
-      <Route exact path="/menu_food">
-        <Bread/>
-        </Route>
-      <Route exact path="/menu_merchandise">
-        <Merchandise/>
-        </Route>
-        <Route exact path="/detail">
-        <Detail/>
-        </Route>
-        <Route exact path="/cart">
-        <Cart/>
-        </Route>
-        <Route exact path="/order">
-        <Order/>
-        </Route>
-        <Route exact path="/pay">
-        <Pay/>
-        </Route>
-        <Route exact path="/payments">
-        <PaySecond/>
-        </Route>
+      <Route exact path="/" component={Main} />
+      <Route exact path="/menu_drinks" component={Drinks} />
+      <Route exact path="/menu_food" component={Bread} />
+      <Route exact path="/menu_merchandise" component={Merchandise} />
+        <Route exact path="/detail" component={Detail} />
+        <Route exact path="/cart" component={Cart} />
+        <Route exact path="/order" component={Order} />
+        <Route exact path="/pay" component={Pay} />
+        <Route exact path="/payments" component={PaySecond} />
       <Redirect from="*" to="/" />
     </Switch>
-  </HashRouter>
+  </BrowserRouter>
 )
 };
 
