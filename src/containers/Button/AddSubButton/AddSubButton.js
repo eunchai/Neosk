@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import {AiOutlinePlusCircle} from "react-icons/ai"
+import {AiOutlinePlusCircle, AiOutlineMinusCircle} from "react-icons/ai"
 
 const AddButtonPresenter = () => {
   return (
     <Wrapper>
-      <AiOutlinePlusCircle size="24"/>
+      <AiOutlineMinusCircle size="24"/> 1 <AiOutlinePlusCircle size="24"/>      
     </Wrapper>
   );
 };
@@ -13,7 +13,7 @@ const AddButtonPresenter = () => {
 export default AddButtonPresenter;
 
 const Wrapper = styled.div`
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
   display: flex;
+  width: 70px;
 `;

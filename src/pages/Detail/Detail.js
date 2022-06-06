@@ -1,9 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import AddButton from "../../containers/Button/AddButton";
+import AddSubButton from "../../containers/Button/AddSubButton";
 import CartButton from "../../containers/Button/CartButton";
 import OrderButton from "../../containers/Button/OrderButton";
-import MinusButton from "../../containers/Button/SubButton/SubButton";
 
 const DrinkPresenter = (props) => {
   const menu = [{"id":378,"name":"딸기주스 190ML","description":"달콤한 국내산 딸기의 과육이 듬뿍 느껴지는 주스","price":3900,"image":"https://www.istarbucks.co.kr/upload/store/skuimg/2019/06/[5210008070]_20190627152902132.jpg","kcal":100}]
@@ -22,8 +21,7 @@ const DrinkPresenter = (props) => {
           </ListWrapper>
         ))}
         <NumberTab>
-        <MinusButton/> 1
-          <AddButton/>
+        <AddSubButton/>
           </NumberTab>
         <OrderTab>
           <CartButton/>
