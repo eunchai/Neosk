@@ -17,7 +17,7 @@ import PaySecond from "../pages/Pay/PaySecond";
 
 const RootRouter = () => {
 return(
-  <HashRouter>
+  <HashRouter basename={process.env.PUBLIC_URL}>
     <Switch>
       <Route exact path="/" component={Main} />
       <Route exact path="/menu_drinks" component={Drinks} />
