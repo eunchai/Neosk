@@ -10,7 +10,8 @@ import Japanese from "../../assets/Japanese.svg"
 import Spanish from "../../assets/Spanish.svg"
 import German from "../../assets/Germany.svg"
 
-const MainPresenter = () => {
+const MainPresenter = (props) => {
+  const {goTTS} = props;
   return (
     <Wrapper>
       <LogoHeader/>
@@ -30,7 +31,7 @@ const MainPresenter = () => {
         <Languages alt='스페인어' src={Spanish} />
         <Languages alt='독일어' src={German} />
       </LangWrapper>
-      <VoiceButton>저시력자용 TTS</VoiceButton>
+      <VoiceButton onClick={goTTS}>저시력자용 TTS</VoiceButton>
     </Wrapper>
   );
 }

@@ -14,10 +14,11 @@ import Cart from "../pages/CartPage";
 import Order from "../pages/Order";
 import Pay from "../pages/Pay/PayOne";
 import PaySecond from "../pages/Pay/PaySecond";
+import TTSDrinks from "../pages/TTS/Drinks"
 
 const RootRouter = () => {
 return(
-  <HashRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter>
     <Switch>
       <Route exact path="/" component={Main} />
       <Route exact path="/menu_drinks" component={Drinks} />
@@ -28,6 +29,7 @@ return(
         <Route exact path="/order" component={Order} />
         <Route exact path="/pay" component={Pay} />
         <Route exact path="/payments" component={PaySecond} />
+        <Route exact path="/menu" component={TTSDrinks} />
       <Redirect from="*" to="/" />
     </Switch>
   </HashRouter>

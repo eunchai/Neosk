@@ -5,7 +5,6 @@ import logo from "../../assets/neosk.png"
 const Wrapper = styled.div`
 padding-top: 10px;
 width: 100%;
-//border-bottom: 1.5px solid lightgray;
 text-align: right;
 position: fixed;
 background-color: #86B1E5;
