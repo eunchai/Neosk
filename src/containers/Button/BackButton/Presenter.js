@@ -3,16 +3,15 @@ import styled from "styled-components";
 import {AiOutlineLeft} from "react-icons/ai"
 
 const BackButtonPresenter = (props) => {
-  const { goBack } = props;
+  const { onBackPage } = props;
   return (
     <Wrapper>
-      <Button onClick={goBack}>
+      <Button onClick={onBackPage}>
       <AiOutlineLeft size="25" color="white"/>
-      </Button>  
+      </Button>
     </Wrapper>
   );
 };
-
 export default BackButtonPresenter;
 
 const Wrapper = styled.div`

@@ -1,1 +1,1 @@
-export { default } from "./MainPresenter";
+export { default } from "./Main";

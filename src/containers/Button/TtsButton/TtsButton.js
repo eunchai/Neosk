@@ -2,18 +2,18 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 import InButtonPresenter from "./Presenter";
 
-const BackButton = () => {
+const InButton = () => {
   const history = useHistory();
-  const onBackPage = () => {
-    history.goBack()
-    // history.go(0)
+  const onOrder = () => {
+    history.push("/tts/menu");
+    history.go(0)
   };
 
   return (
     <InButtonPresenter
-      onBackPage={onBackPage}
+      onOrder={onOrder}
     />
   );
 };
 
-export default BackButton;
+export default InButton;

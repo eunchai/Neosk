@@ -18,7 +18,6 @@ export default MenuPresenter;
 
 const Wrapper = styled.div`
   background-color: #DCE4ED;
-  align-items: center;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -26,30 +25,30 @@ const Wrapper = styled.div`
 `;
 
 const ClickedButton = styled.button`
-  border-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
   font-size: 19px;
-  margin: 5px;
-  margin-left: -35px;
-  width: 130px;
+  margin: 5px 5px 5px 0px;
+  width: 95px;
   height: 50px;
-  padding-left: 25px;
   background-color: #FFFFFF;
   font-weight: bold;
+  border-left-color: transparent;
 `;
 
 const UnclickedButton = styled.button`
   border-radius: 5px;
   font-size: 19px;
-  margin: 5px;
-  margin-left: -130px;
-  width: 130px;
+  margin: 5px 0px 5px 0px;
+  width: 50px;
   height: 50px;
   text-align: right;
   background-color: #FFFFFF;
+  border-left-color: transparent;
 `;
 
 const MainButtonWrapper = styled.div`
 position : fixed;
 bottom : 0;
-margin-bottom: 10px;
+margin: 0 0 10px 7px;
 `;

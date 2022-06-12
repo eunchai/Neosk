@@ -43,15 +43,14 @@ background-color: #DCE4ED;
 `;
 
 const MenuList = styled.div`
-  border-left: 1.5px solid lightgray;
   margin-left: 100px;
   background-color: #FFFFFF;
 `;
 
 const ListWrapper = styled.div`
   display: flex;
-  border: 1px solid #181716;
-  border-radius: 8px;
+  border-bottom: 1px solid #DCE4ED;
+  padding: 10px;
   margin: 10px;
   cursor: pointer;
 `;

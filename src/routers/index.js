@@ -15,6 +15,8 @@ import Order from "../pages/Order";
 import Pay from "../pages/Pay/PayOne";
 import PaySecond from "../pages/Pay/PaySecond";
 import TTSDrinks from "../pages/TTS/Drinks"
+import TTSDetail from "../pages/TTS/Detail"
+import TTSCart from "../pages/TTS/CartPage"
 
 const RootRouter = () => {
 return(
@@ -29,7 +31,9 @@ return(
         <Route exact path="/order" component={Order} />
         <Route exact path="/pay" component={Pay} />
         <Route exact path="/payments" component={PaySecond} />
-        <Route exact path="/menu" component={TTSDrinks} />
+        <Route exact path="/tts/menu" component={TTSDrinks} />
+        <Route exact path="/tts/detail" component={TTSDetail} />
+        <Route exact path="/tts/cart" component={TTSCart} />
       <Redirect from="*" to="/" />
     </Switch>
   </HashRouter>

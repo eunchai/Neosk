@@ -43,7 +43,7 @@ border-bottom-right-radius: 5px;
 const MainButtonWrapper = styled.div`
 position : fixed;
 bottom : 0;
-margin-bottom: 10px;
+margin: 0 0 10px 15px;
 `;
 
 const CartButton = styled.button`
@@ -52,6 +52,5 @@ border-radius: 5px;
   margin: 5px 0px 5px 0px;
   width: 85px;
   height: 50px;
-
   background-color: #FFFFFF;
 `;

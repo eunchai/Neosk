@@ -5,7 +5,7 @@ import { useHistory } from "react-router-dom";
 const Drinks = () => {
     const history = useHistory();
     const onDetail = () => {
-    history.push("/detail");
+    history.push("/tts/detail");
     history.go(0)
   };
 
