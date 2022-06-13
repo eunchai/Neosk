@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Neosk/static/css/main.073c9b0a.css",
-    "main.js": "/Neosk/static/js/main.87a8b631.js",
+    "main.js": "/Neosk/static/js/main.024ccc26.js",
     "static/js/787.aaa292f1.chunk.js": "/Neosk/static/js/787.aaa292f1.chunk.js",
     "static/media/Spanish.svg": "/Neosk/static/media/Spanish.0c7aefe560ed7e75b72a4941087853e0.svg",
     "static/media/OrderImg.jpg": "/Neosk/static/media/OrderImg.e9792a2db7a61802a66e.jpg",
@@ -15,11 +15,11 @@
     "static/media/Germany.svg": "/Neosk/static/media/Germany.1708c5f78a40e2382860bd1a6fc03353.svg",
     "static/media/Japanese.svg": "/Neosk/static/media/Japanese.c4b1f700c50818f752e2c42d39592a36.svg",
     "main.073c9b0a.css.map": "/Neosk/static/css/main.073c9b0a.css.map",
-    "main.87a8b631.js.map": "/Neosk/static/js/main.87a8b631.js.map",
+    "main.024ccc26.js.map": "/Neosk/static/js/main.024ccc26.js.map",
     "787.aaa292f1.chunk.js.map": "/Neosk/static/js/787.aaa292f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.87a8b631.js"
+    "static/js/main.024ccc26.js"
   ]
 }
