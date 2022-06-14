@@ -43,7 +43,7 @@ background-color: #DCE4ED;
 `;
 
 const MenuList = styled.div`
-  margin-left: 100px;
+  margin-left: 110px;
   background-color: #FFFFFF;
 `;
 

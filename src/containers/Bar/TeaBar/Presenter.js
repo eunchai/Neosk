@@ -28,12 +28,16 @@ const ClickedButton = styled.button`
 border-top-right-radius: 5px;
 border-bottom-right-radius: 5px;
   font-size: 19px;
+  color: #86B1E5;
   margin: 5px 5px 5px 0px;
   width: 95px;
   height: 50px;
   background-color: #FFFFFF;
   font-weight: bold;
   border-left-color: transparent;
+  border-right-color: #86B1E5;
+  border-top-color: #86B1E5;
+  border-bottom-color: #86B1E5;
 `;
 
 const UnclickedButton = styled.button`
@@ -45,10 +49,14 @@ const UnclickedButton = styled.button`
   text-align: right;
   background-color: #FFFFFF;
   border-left-color: transparent;
+  border-right-color: #86B1E5;
+  border-top-color: #86B1E5;
+  border-bottom-color: #86B1E5;
+    color: #86B1E5;
 `;
 
 const MainButtonWrapper = styled.div`
 position : fixed;
 bottom : 0;
-margin: 0 0 10px 7px;
+margin: 0 0 10px 12px;
 `;

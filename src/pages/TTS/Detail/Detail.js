@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import AddSubButton from "../../../containers/Button/AddSubButton";
 import BackButton from "../../../containers/Button/BackButton";
-import CartButton from "../../../containers/Button/CartButton";
+import CartButtonTTS from "../../../containers/Button/CartButtonTTS";
 import OrderButton from "../../../containers/Button/OrderButton";
 
 const DetailPresenter = () => {
@@ -24,7 +24,7 @@ const DetailPresenter = () => {
           </ListWrapper>
         ))}
         <OrderTab>
-          <CartButton/>
+          <CartButtonTTS/>
           <OrderButton/>
         </OrderTab>
     </Wrapper>

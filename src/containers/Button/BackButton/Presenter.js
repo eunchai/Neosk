@@ -17,7 +17,6 @@ export default BackButtonPresenter;
 const Wrapper = styled.div`
   display: flex;
   position: fixed;
-  padding-top:5px;
 `;
 
 const Button = styled.button`

@@ -43,6 +43,7 @@ const Wrapper = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
+  height:900px;
 `;
 
 const ButtonWrapper = styled.div`

@@ -22,11 +22,11 @@ const DrinkPresenter = (props) => {
           <ListWrapper key={menu.id} id={menu.id}>
             <StrWrapper>
             <MenuName>{menu.name}</MenuName>
-            <MenuPrice>{menu.price}원</MenuPrice>
-            <NumberWrapper>
-        <AddSubButton/>
-          </NumberWrapper>
-          </StrWrapper>
+            <AddSubButton/>
+            </StrWrapper>
+            <MenuPrice>
+            {menu.price}원
+          </MenuPrice>
           </ListWrapper>
         ))}
         <OrderTab>
@@ -52,11 +52,15 @@ const ListWrapper = styled.div`
   border-bottom: 1px solid #DCE4ED;
   padding: 10px;
   margin: 10px;
+  flex-direction: column;
+  align-items:center ;
 `;
 
 const StrWrapper = styled.div`
   margin: 15px;
   font-size: 15px;
+  display: flex;
+  justify-content: space-between;
 `;
 
 const MenuName = styled.div`
@@ -65,13 +69,8 @@ const MenuName = styled.div`
 `;
 
 const MenuPrice = styled.div`
-font-size: 15px;
-padding-top: 10px;
-`;
-
-const NumberWrapper = styled.div`
-margin-right: -50px;
-float: right;
+  font-size: 20px;
+  padding: 10px;
 `;
 
 const OrderTab = styled.footer`

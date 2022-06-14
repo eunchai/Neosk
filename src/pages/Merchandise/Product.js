@@ -43,6 +43,7 @@ background-color: #DCE4ED;
 const MenuList = styled.div`
   margin-left: 100px;
   background-color: #FFFFFF;
+  margin-left: 110px;
 `;
 
 const ListWrapper = styled.div`

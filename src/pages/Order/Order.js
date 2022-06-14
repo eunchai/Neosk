@@ -29,10 +29,11 @@ display: flex;
 flex-direction: column;
 align-items: center;
 background-color: #DCE4ED;
+height: 900px;
 `;
 
 const Header = styled.div`
-padding: 5px;
+padding: 10px;
 width: 100%;
 text-align: center;
 position: fixed;
@@ -45,7 +46,7 @@ const OrderPage = styled.img`
 width:320px;
 border: 1px solid lightgrey;
 border-radius: 12px;
-margin-top: 60px;
+margin-top: 70px;
 `;
 
 const PriceBox = styled.div`

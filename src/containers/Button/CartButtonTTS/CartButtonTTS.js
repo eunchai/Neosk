@@ -1,8 +1,8 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import MenuPresenter from "./Presenter";
+import OutButtonPresenter from "./Presenter";
 
-const CoffeeBar = () => {
+const OutButton = () => {
   const history = useHistory();
   const onOrder = () => {
     history.push("/tts/cart");
@@ -10,10 +10,10 @@ const CoffeeBar = () => {
   };
 
   return (
-    <MenuPresenter
-    onOrder={onOrder}
+    <OutButtonPresenter
+      onOrder={onOrder}
     />
   );
 };
 
-export default CoffeeBar;
+export default OutButton;
